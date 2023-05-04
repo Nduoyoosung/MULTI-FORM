@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi-page-form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu col">
+            <nav>
+                <ul>
+                    <li><div class="num"><a href="index.html">1</a></div><div class="link">STEP 1<a href="index.html"><h3>YOUR INFO</h3></a></div></li>
+                    <li><div class="num"><a href="plan.html">2</a></div><div class="link plan">STEP 2<a href="plan.html"><h3>SELECT PLAN</h3></a></div></li>
+                    <li><div class="num"><a href="pick.html">3</a></div><div class="link">STEP 1<a href="pick.html"><h3>ADD-ONS</h3></a></div></li>
+                    <li><div class="num" style="background-color: skyblue;"><a href="finishup.html">4</a></div><div class="link">STEP 1<a href="finishup.html"><h3>SUMMARY</h3></a></div></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col aside">
+
+    <!--finish up page-->
+    <div class="finishup">
+
+    <!--finish up page for monthly plan-->
+    <div class="col" id="finish">
+            <h1>Finishing up</h1>
+            <p>Double-check everything, looks OK before confirming.</p>
+            
+            <div class="table">
+                <select name="plan" id="select">
+                    <option value="Arcade">Arcade (monthly)</option>
+                    <option value="Advanced">Advanced (monthly)</option>
+                    <option value="Pro">Pro (monthly)</option>
+                </select>
+
+                <p class="price">$9/mo</p><br><br><br>
+                <hr><br>
+
+                <h3 class="col">online service</h3>
+                <p class="price" style="font-size: smaller;">+$1/mo</p><br><br>
+                <h3 class="col">Larger storage</h3>
+                <p class="price" style="font-size: smaller;">+$2/mo</p><br><br>
+            </div>
+              
+            <div style="padding: 13px;">
+            <h3 class="col">Total (per month)</h3>
+            <p class="price" style="font-size: larger; color: rgb(67, 67, 206);">+$12/mo</p><br><br>
+            </div>
+
+            <div class="footer">
+                <a href="pick.html">Go back</a>
+                <button><a href="congrats.html">confirm</a></button>
+            </div>
+        <!--monthly ends here-->
+    </div>
+
+  <!--finishup page ends here-->
+</div>
+<!--aside div-->
+    </div>
+<!--container div-->
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi-page-form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="query.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu col">
+            <nav>
+                <ul>
+                    <ul>
+                        <li><a href="index.html"><div class="num">1</div></a><div class="link">STEP 1<a href="index.html"><h3>YOUR INFO</h3></a></div></li>
+                        <li><a href="plan.html"><div class="num">2</div></a><div class="link plan">STEP 2<a href="plan.html"><h3>SELECT PLAN</h3></a></div></li>
+                        <li><a href="pick.html"><div class="num">3</div></a><div class="link">STEP 1<a href="pick.html"><h3>ADD-ONS</h3></a></div></li>
+                        <li><a href="finishup.html"><div class="num" style="background-color: skyblue;">4</div></a><div class="link">STEP 1<a href="finishup.html"><h3>SUMMARY</h3></a></div></li>
+                    </ul>
+            </nav>
+        </div>
+
+        <div class="col aside">
+
+    <!--finish up page-->
+    <div class="finishup">
+
+    <!--finish up page for yearly plan-->
+    <div class="col" id="finishb">
+        <h1>Finishing up</h1>
+        <p>Double-check everything, looks OK before confirming.</p>
+        
+        <div class="table">
+            <select name="plan" id="select">
+                <option value="Arcade">Arcade (Yearly)</option>
+                <option value="Advanced">Advanced (Yearly)</option>
+                <option value="Pro">Pro (Yearly)</option>
+            </select>
+
+            <p class="price">$90/yr</p><br><br><br>
+            <hr><br>
+
+            <h3 class="col">online service</h3>
+            <p class="price" style="font-size: smaller;">+$10/yr</p><br><br>
+            <h3 class="col">Larger storage</h3>
+            <p class="price" style="font-size: smaller;">+$20/yr</p><br><br>
+        </div>
+          
+        <div style="padding: 13px;">
+        <h3 class="col">Total (per year)</h3>
+        <p class="price" style="font-size: larger; color: rgb(67, 67, 206);">+$120/yr</p><br><br>
+        </div>
+
+        <div class="footer">
+            <a href="pickb.html">Go back</a>
+            <a href="congrats.html"><button class="next">confirm</button></a>
+        </div>
+    <!--yearly ends here-->
+</div>
+  <!--finishup page ends here-->
+</div>
+<!--aside div-->
+    </div>
+<!--container div-->
+    </div>
+</body>
+</html>

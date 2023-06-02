@@ -1,0 +1,323 @@
+
+@media screen and (max-width:710px) {
+    body{
+        background-color: white;
+    }
+
+   .container{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    height: 12em;
+    background-color: blue;
+   }
+   .container .menu{
+       width: 100%;
+       background-image: url(./assets/images/bg-sidebar-desktop.svg);
+       height: 12em;
+       margin: 0;
+       border-radius: 0;
+   }
+   .menu .link{
+    display: none;
+   }
+   .menu li{
+    display: inline-block;
+   }
+   li .num{
+    float: left;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.container .aside{
+    width: 92%;
+    padding: 10px;
+    background-color: white;
+    margin-top: -80px;
+    border-radius: 10px;
+    margin-left: 15px;
+    height: 27.1em;
+}
+
+#content .form input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+}
+
+/***bill section under plan***/
+.bill h3{
+    font-size: small;
+}
+.bill .plan-type{
+    margin-top: -30px;
+    margin-left: 15px;
+}
+.bill .arcade .col{
+float: left;
+}
+.bill .advanced .col{
+float: left;
+}
+.bill .pro .col{
+float: left;
+}
+.bill .arcade{
+width: 93%;
+margin: 15px;
+box-shadow: none;
+border: 1px solid rgb(53, 141, 175);
+}
+.bill .advanced{
+width: 93%;
+margin: 15px;
+box-shadow: none;
+border: 1px solid rgb(53, 141, 175);
+}
+.bill .pro{
+width: 93%;
+margin: 15px;
+box-shadow: none;
+border: 1px solid rgb(53, 141, 175);
+}
+/**bill end**/
+
+/**switch button styling**/
+.switch{margin-left: 10px;}
+.switch .cols{
+    float: left;
+    padding: 5px;
+    margin-left: 25px;
+}
+.switch .switch-button p{
+    width: 40%;
+}
+/**pick adds page style**/
+
+.boxes .box-text p{
+    font-size: 11.4px;
+}
+
+.congrats-message .image{
+    width: 19%;
+}
+#finish .footer{
+    margin-top: 50px;
+}
+#finishb .footer{
+    margin-top: 50px;
+}
+
+.next{
+    width: 40% !important;
+}
+}
+
+
+
+@media screen and (max-width:375px) {
+    body{
+        background-color: white;
+    }
+
+   .container{
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    height: 12em;
+    background-color: blue;
+   }
+   .container .menu{
+       width: 100%;
+       background-image: url(./assets/images/bg-sidebar-desktop.svg);
+       height: 12em;
+       margin: 0;
+       border-radius: 0;
+   }
+   .menu .link{
+    display: none;
+   }
+   .menu li{
+    display: inline-block;
+   }
+   li .num{
+    float: left;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 15px;
+}
+
+.container .aside{
+    width: 92%;
+    padding: 10px;
+    background-color: white;
+    margin-top: -80px;
+    border-radius: 10px;
+    margin-left: 15px;
+    height: 27.1em;
+}
+
+#content .form input{
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid black;
+}
+
+/***bill section under plan***/
+.bill h3{
+    font-size: small;
+}
+.bill .plan-type{
+    margin-top: -30px;
+    margin-left: 15px;
+}
+.bill .arcade .col{
+float: left;
+}
+.bill .advanced .col{
+float: left;
+}
+.bill .pro .col{
+float: left;
+}
+.bill .arcade{
+width: 93%;
+margin: 15px;
+box-shadow: none;
+border: 1px solid rgb(53, 141, 175);
+}
+.bill .advanced{
+width: 93%;
+margin: 15px;
+box-shadow: none;
+border: 1px solid rgb(53, 141, 175);
+}
+.bill .pro{
+width: 93%;
+margin: 15px;
+box-shadow: none;
+border: 1px solid rgb(53, 141, 175);
+}
+/**bill end**/
+
+/**switch button styling**/
+.switch{margin-left: 10px;}
+.switch .cols{
+    float: left;
+    padding: 5px;
+    margin-left: 25px;
+}
+.switch .switch-button p{
+    width: 40%;
+}
+/**pick adds page style**/
+
+.boxes .box-text p{
+    font-size: 11.4px;
+}
+
+.congrats-message .image{
+    width: 19%;
+}
+#finish .footer{
+    margin-top: 50px;
+}
+#finishb .footer{
+    margin-top: 50px;
+}
+
+.next{
+    width: 40% !important;
+}
+}
+
+
+@media screen and (max-width: 342px) {
+    li .num{
+     margin-left: 10px;
+ }
+ 
+.bill .arcade{
+    margin-left: 10px;
+    }
+    .bill .advanced{
+        margin-left: 10px;
+        }
+        .bill .pro{
+            margin-left: 10px;
+            }
+    .bill{
+        border: 1px solid black;
+    }
+    
+.switch{
+    margin-left: 0;
+    width: 100% !important;
+}
+
+}
+
+@media screen and (max-width: 322px) {
+    .switch{
+        height: 11em !important;
+    }
+    .switch .cols{
+        width: 100%;
+        margin: 0;
+        border: 1px solid black;
+        margin-top: 5px;
+    }
+    .switch-button{
+        width: 35% !important;
+        margin-left: 30% !important;
+    }
+    
+    .switch-button p{
+        padding: 5px;
+        width: 35% !important;
+    }
+    .container .aside{
+        height: 30.1em;
+    }
+}
+
+
+
+@media screen and (max-width: 322px) {
+    .num{
+        margin-left: 5px !important;
+    }
+    .container .menu{
+        height: 16em;
+    }
+}
+
+
+@media screen and (max-width: 284px) {
+    .num{
+        margin-left: 30px !important;
+    }
+    .container .menu{
+        height: 16em;
+    }
+    select{
+        width: 60%;
+    }
+    .total h3{
+        font-size: 12px !important;
+    }
+    .total p{
+        font-size: small !important;
+    }
+    .congrats-message .image{
+        width: 50% !important;
+    }
+}

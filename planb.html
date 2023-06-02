@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multi-page-form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="query.css">
+</head>
+<body>
+    <div class="container">
+        <div class="menu col">
+            <nav>
+                <ul>
+                    <li><a href="index.html"><div class="num">1</div></a><div class="link">STEP 1<a href="index.html"><h3>YOUR INFO</h3></a></div></li>
+                    <li><a href="plan.html"><div class="num" style="background-color: skyblue;">2</div></a><div class="link plan">STEP 2<a href="plan.html"><h3>SELECT PLAN</h3></a></div></li>
+                    <li><a href="pick.html"><div class="num">3</div></a><div class="link">STEP 1<a href="pick.html"><h3>ADD-ONS</h3></a></div></li>
+                    <li><a href="finishup.html"><div class="num">4</div></a><div class="link">STEP 1<a href="finishup.html"><h3>SUMMARY</h3></a></div></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="col aside">
+        <div class="plan">
+        <!--plan b for yearly-->
+        <div id="planb" class="col">
+            <h1>Select Your Plan</h1>
+            <p>You have the option of monthly or yearly billing.</p>
+
+            <div class="bill">
+                <div class="col arcade">
+                   <img src="./assets/images/icon-arcade.svg" width="35" height="35">
+
+                   <h3>Arcade</h3>
+                   <p>$90/yr</p>
+                   <h6>2 years free</h6>
+                </div>
+                <div class="col advanced">
+                    <img src="./assets/images/icon-advanced.svg" width="35" height="35">
+
+                    <h3>Advanced</h3>
+                    <p>$120/yr</p>
+                    <h6>2 years free</h6>
+                </div>
+                <div class="col pro">
+                   <img src="./assets/images/icon-pro.svg" width="35" height="35">
+                   
+                   <h3>Pro</h3>
+                   <p>$150/yr</p>
+                   <h6>2 years free</h6>
+                </div>
+                <!--bill-->
+            </div>
+                 
+            <div class="switch">
+                <h3 class="cols" style="opacity: 0.3;">monthly</h3>
+                <div class="switch-button cols"><a href="plan.html"><p style="float: right;">n</p></a></div>
+                <h3 class="cols">yearly</h3>
+            </div>
+
+            <div class="footer">
+                <a href="plan.html">Go back</a>
+                <a href="pickb.html"><button class="next">Next Step</button></a>
+            </div><br>
+            <!--plan b-->
+       </div>
+            <!--plan wrap div-->
+        </div>
+
+<!--aside div-->
+    </div>
+<!--container div-->
+    </div>
+</body>
+</html>

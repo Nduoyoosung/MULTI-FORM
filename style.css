@@ -1,0 +1,555 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(228, 100%, 84%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+  cursor: pointer;
+}
+.container{
+    height: 30em;
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 90px;
+}
+.container .menu{
+    width: 30%;
+    background-image: url(./assets/images/bg-sidebar-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 28em;
+    margin: 18px;
+    border-radius: 10px;
+}
+
+/***nav-side style guide**/
+nav{
+    margin-top: 20px;
+}
+nav ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: small;
+    text-decoration: none;
+}
+.col{
+    float: left;
+}
+
+li .num{
+    float: left;
+    width: 12%;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 50%;
+    padding: 2px;
+}
+.menu .link{
+    margin-left: 30px;
+}
+li:hover .num{
+    background-color: skyblue;
+}
+
+/**here is the aside page on the right**/
+.container .aside{
+    width: 55%;
+    margin-left: 30px;
+    height: unset;
+}
+
+#content{
+    width: 100%;
+    font-size: small;
+    color: rgb(85, 82, 82);
+    margin-top: 40px;
+}
+/**header of the page**/
+#content h1{
+     color: navy;
+}
+
+/**form styling**/
+#content .form{
+    margin-top: 30px;
+}
+#content .form .label{
+    font-weight: bold;
+    color: navy;
+    margin-top: 20px;
+}
+/**input field**/
+#content .form input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: grey;
+    border: 1px solid grey;
+    font-weight: bold;
+}
+/**next button***/
+.next{
+    border: none;
+    padding: 12px;
+    width: 30%;
+    background-color: navy;
+    float: right;
+    margin-top: 70px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+/***plan**/
+.aside #plan{
+    width: 100%;
+    font-size: small;
+    color: rgb(85, 82, 82);
+    margin-top: 40px;
+}
+.aside #plan h1{
+    color: navy;
+}
+
+/**bill area style**/
+.bill{
+    margin-top: 30px;
+}
+.bill .arcade{
+    margin-left: 5px;
+    width: 28%;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 2px 2px rgb(168, 167, 167);
+}
+.bill .arcade:hover{
+    background-color: hsl(229, 24%, 87%);
+    border: 1px solid hsl(243, 100%, 62%);
+}
+.bill .advanced{
+    width: 28%;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 2px 2px rgb(168, 167, 167);
+}
+.bill .advanced:hover{
+    background-color: hsl(229, 24%, 87%);
+    border: 1px solid hsl(243, 100%, 62%);
+}
+.bill .pro{
+    width: 28%;
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 2px 2px rgb(168, 167, 167);
+}
+.bill .pro:hover{
+    background-color: hsl(229, 24%, 87%);
+    border: 1px solid hsl(243, 100%, 62%);
+}
+/***bill type**/
+.bill h3{
+    color: navy;
+    margin-top: 30px;
+}
+/**text inside bill box**/
+.bill p{
+    opacity: 0.4;
+    font-weight: bold;
+}
+.bill:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/**done with bill**/
+#plan .switch{
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(229, 24%, 87%);
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 3em;
+}
+#plan .switch h3{
+    color: navy;
+}
+
+/**switch button styling**/
+.switch .cols{
+    float: left;
+    padding: 5px;
+    margin-left: 45px;
+    margin-top: -5px;
+}
+.cols::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.switch .switch-button{
+    width: 15%;
+    background-color: navy;
+    border-radius: 20px;
+}
+.switch .switch-button p{
+    background-color: white;
+    width: 30%;
+    border-radius: 50%;
+}
+.switch a{
+    text-decoration: none;
+    color: white;
+}
+/**switch button ends here**/
+
+#plan .footer{
+    padding: 10px;
+    margin-top: 70px;
+}
+#plan .footer a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+#plan .footer button{
+    border: none;
+    padding: 12px;
+    width: 30%;
+    background-color: navy;
+    float: right;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#plan .footer button a{
+    color: white;
+}
+
+/***plan b style guide**/
+.aside #planb{
+    width: 100%;
+    font-size: small;
+    color: rgb(85, 82, 82);
+    margin-top: 40px;
+}
+.aside #planb h1{
+    color: navy;
+}
+#planb .footer{
+    padding: 10px;
+    margin-top: 70px;
+}
+#planb .footer a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+#planb .footer button{
+    border: none;
+    padding: 12px;
+    width: 30%;
+    background-color: navy;
+    float: right;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#planb .footer button a{
+    color: white;
+}
+#planb .switch{
+    width: 95%;
+    text-align: center;
+    padding: 10px;
+    background-color: hsl(229, 24%, 87%);
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 3em;
+}
+#planb .switch h3{
+    color: navy;
+}
+/**plan b done**/
+
+
+/**here is the page 3 where we have pick adds**/
+.aside #pick{
+    width: 100%;
+    font-size: small;
+    color: rgb(85, 82, 82);
+    margin-top: 40px;
+    font-weight: bold;
+}
+.aside #pick h1{
+    color: navy;
+}
+.box-wrap{
+    margin-top: 40px;
+}
+#pick .box-wrap h3{
+    color: navy;
+} 
+#pick .box-wrap .check{
+    float: left;
+    margin: 15px;
+}
+.box-wrap .boxes{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.box-wrap .row{
+    float: right;
+    margin-top: -25px;
+}
+
+#pick .footer{
+    padding: 10px;
+    margin-top: 70px;
+}
+#pick .footer a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+#pick .footer button{
+    border: none;
+    padding: 12px;
+    width: 30%;
+    background-color: navy;
+    color: white;
+    float: right;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#pick .footer button a{
+    color: white;
+}
+
+/**pickb for yearly plan**/
+.aside #pickb{
+    width: 100%;
+    font-size: small;
+    color: rgb(85, 82, 82);
+    margin-top: 40px;
+    font-weight: bold;
+}
+.aside #pickb h1{
+    color: navy;
+}
+#pickb .box-wrap h3{
+    color: navy;
+} 
+#pickb .box-wrap .check{
+    float: left;
+    margin: 15px;
+}
+#pickb .footer{
+    padding: 10px;
+    margin-top: 70px;
+}
+#pickb .footer a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+#pickb .footer button{
+    border: none;
+    padding: 12px;
+    width: 30%;
+    background-color: navy;
+    color: white;
+    float: right;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#pickb .footer button a{
+    color: white;
+}
+/**pick page ends here**/
+
+
+/***finish up page**/
+.aside #finish{
+    width: 100%;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(85, 82, 82);
+    margin-top: 40px;
+}
+.aside #finish h1{
+    color: navy;
+}
+#finish .table{
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+#finish #select{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: navy;
+    float: left;
+}
+#finish .col{
+    float: left;
+}
+#finish .price{
+    float: right;
+    font-weight: bold;
+    color: navy;
+}
+
+/***footer**/
+#finish .footer{
+    padding: 10px;
+    margin-top: 70px;
+}
+#finish .footer a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+#finish .footer button{
+    border: none;
+    padding: 12px;
+    width: 30%;
+    background-color: navy;
+    color: white;
+    float: right;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#finish .footer button a{
+    color: white;
+}
+
+/**finishb for yearly plan**/
+.aside #finishb{
+    width: 100%;
+    font-size: small;
+    font-weight: bold;
+    color: rgb(85, 82, 82);
+    margin-top: 40px;
+}
+.aside #finishb h1{
+    color: navy;
+}
+#finishb .table{
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+#finishb #select{
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: whitesmoke;
+    color: navy;
+    float: left;
+}
+#finishb .col{
+    float: left;
+}
+#finishb .price{
+    float: right;
+    font-weight: bold;
+    color: navy;
+}
+
+/***footer**/
+#finishb .footer{
+    padding: 10px;
+    margin-top: 70px;
+}
+#finishb .footer a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+#finishb .footer button{
+    border: none;
+    padding: 12px;
+    width: 30%;
+    background-color: navy;
+    color: white;
+    float: right;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+#finishb .footer button a{
+    color: white;
+}
+.finishup:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/**last page with congratulationns message**/
+.congrats-message{
+    height: 23em;
+    margin-top: 50px;
+}
+.congrats-message .image{
+    border: 12px solid rgb(247, 51, 51);
+    padding: 4px;
+    width: 14%;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.message{
+    text-align: center;
+    padding: 10px;
+}
+.message h1{
+    color: navy;
+}
+.message p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: grey;
+}
+/**page end**/
+
